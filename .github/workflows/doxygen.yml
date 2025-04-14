@@ -47,17 +47,19 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
           git fetch origin gh-pages || true
-          git worktree add gh-pages origin/gh-pages || git worktree add gh-pages --orphan gh-pages
-
-          rm -rf gh-pages/*
-          cp -r /tmp/artifacts/docs/* gh-pages/
-
-          cd gh-pages
+          git checkout --orphan gh-pages
+          git reset --hard
+          
+          # Remove everything except .git directory
+          find . -maxdepth 1 ! -name .git -exec rm -rf {} \; 2>/dev/null || true
+          
+          # Copy the generated docs
+          cp -r /tmp/artifacts/docs/* .
+          
+          # Add, commit and push
           git add .
           git commit -m "Deploy Doxygen docs [skip ci]" || echo "✅ No changes to commit"
           git push -f origin gh-pages
-          cd ..
-          git worktree remove gh-pages
 
       - name: Upload documentation artifact
         uses: actions/upload-artifact@v4
