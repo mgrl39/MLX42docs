@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+  schedule:
+    - cron: '0 6 * * *'  # Todos los días a las 6:00 UTC
 
 permissions:
   contents: write
@@ -15,25 +17,26 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout this repo
         uses: actions/checkout@v4
-        with:
-          submodules: 'recursive'
 
       - name: Install Doxygen and Graphviz
         run: sudo apt-get install -y doxygen graphviz
+
+      - name: Clone MLX42 from Codam
+        run: |
+          mkdir -p lib
+          git clone --depth=1 https://github.com/codam-coding-college/MLX42 lib/MLX42
 
       - name: Generate documentation with Doxygen
         run: |
           rm -rf docs/ html/
           doxygen Doxyfile || { echo "❌ Doxygen generation failed"; exit 1; }
-          
-          # Si Doxygen generó en 'html/', renombrar a 'docs/'
+
           if [ -d "html" ]; then
             mv html docs
           fi
 
-          # Guardar la documentación en un directorio temporal
           mkdir -p /tmp/artifacts
           cp -r docs /tmp/artifacts/
 
@@ -42,33 +45,22 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Limpiar el directorio de trabajo (eliminar archivos no rastreados)
-          git clean -fdx
+          git fetch origin gh-pages
+          git worktree add gh-pages origin/gh-pages || git worktree add gh-pages --orphan gh-pages
 
-          # Crear o cambiar a la rama gh-pages
-          if ! git ls-remote --exit-code --heads origin gh-pages; then
-            git checkout --orphan gh-pages
-            git rm -rf .
-          else
-            git fetch origin gh-pages
-            git checkout gh-pages
-          fi
+          rm -rf gh-pages/*
+          cp -r /tmp/artifacts/docs/* gh-pages/
 
-          # Copiar la documentación desde el directorio temporal
-          if [ -d "/tmp/artifacts/docs" ]; then
-            cp -r /tmp/artifacts/docs/* .
-          else
-            echo "❌ No documentation found in /tmp/artifacts/docs"
-            exit 1
-          fi
-
-          # Commit y push
+          cd gh-pages
           git add .
-          git commit -m "Deploy Doxygen docs to gh-pages branch [skip ci]" || echo "✅ No changes to commit"
-          git push --force "https://x-access-token:${{ secrets.GH_PAT }}@github.com/mgrl39/MLX42docs.git" gh-pages
+          git commit -m "Deploy Doxygen docs [skip ci]" || echo "✅ No changes to commit"
+          git push origin gh-pages
+          cd ..
+          git worktree remove gh-pages
 
       - name: Upload documentation artifact
         uses: actions/upload-artifact@v4
         with:
           name: doxygen-docs
           path: /tmp/artifacts/docs
+
