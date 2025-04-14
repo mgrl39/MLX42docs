@@ -25,6 +25,7 @@ jobs:
 
       - name: Clone MLX42 from Codam
         run: |
+          rm -rf lib/MLX42
           mkdir -p lib
           git clone --depth=1 https://github.com/codam-coding-college/MLX42 lib/MLX42
 
@@ -40,12 +41,12 @@ jobs:
           mkdir -p /tmp/artifacts
           cp -r docs /tmp/artifacts/
 
-      - name: Deploy to gh-pages branch
+      - name: Deploy to gh-pages branch (force push)
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-          git fetch origin gh-pages
+          git fetch origin gh-pages || true
           git worktree add gh-pages origin/gh-pages || git worktree add gh-pages --orphan gh-pages
 
           rm -rf gh-pages/*
@@ -54,7 +55,7 @@ jobs:
           cd gh-pages
           git add .
           git commit -m "Deploy Doxygen docs [skip ci]" || echo "✅ No changes to commit"
-          git push origin gh-pages
+          git push -f origin gh-pages
           cd ..
           git worktree remove gh-pages
 
@@ -63,4 +64,3 @@ jobs:
         with:
           name: doxygen-docs
           path: /tmp/artifacts/docs
-
