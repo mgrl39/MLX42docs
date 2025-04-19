@@ -1,0 +1,36 @@
+var hierarchy =
+[
+    [ "draw_queue", "structdraw__queue.html", null ],
+    [ "gladGLversionStruct", "structgladGLversionStruct.html", null ],
+    [ "LodePNGColorMode", "structLodePNGColorMode.html", null ],
+    [ "LodePNGColorStats", "structLodePNGColorStats.html", null ],
+    [ "LodePNGCompressSettings", "structLodePNGCompressSettings.html", null ],
+    [ "LodePNGDecoderSettings", "structLodePNGDecoderSettings.html", null ],
+    [ "LodePNGDecompressSettings", "structLodePNGDecompressSettings.html", null ],
+    [ "LodePNGEncoderSettings", "structLodePNGEncoderSettings.html", null ],
+    [ "LodePNGInfo", "structLodePNGInfo.html", null ],
+    [ "LodePNGState", "structLodePNGState.html", null ],
+    [ "LodePNGTime", "structLodePNGTime.html", null ],
+    [ "mlx", "structmlx.html", null ],
+    [ "mlx_close", "structmlx__close.html", null ],
+    [ "mlx_ctx", "structmlx__ctx.html", null ],
+    [ "mlx_cursor", "structmlx__cursor.html", null ],
+    [ "mlx_hook", "structmlx__hook.html", null ],
+    [ "mlx_image", "structmlx__image.html", null ],
+    [ "mlx_image_ctx", "structmlx__image__ctx.html", null ],
+    [ "mlx_instance", "structmlx__instance.html", null ],
+    [ "mlx_key", "structmlx__key.html", null ],
+    [ "mlx_key_data", "structmlx__key__data.html", null ],
+    [ "mlx_list", "structmlx__list.html", null ],
+    [ "mlx_mouse", "structmlx__mouse.html", null ],
+    [ "mlx_resize", "structmlx__resize.html", null ],
+    [ "mlx_srcoll", "structmlx__srcoll.html", null ],
+    [ "mlx_texture", "structmlx__texture.html", null ],
+    [ "s_font", "structs__font.html", null ],
+    [ "testing::Test", null, [
+      [ "Window", "classWindow.html", null ]
+    ] ],
+    [ "ucvector", "structucvector.html", null ],
+    [ "vertex", "structvertex.html", null ],
+    [ "xpm", "structxpm.html", null ]
+];

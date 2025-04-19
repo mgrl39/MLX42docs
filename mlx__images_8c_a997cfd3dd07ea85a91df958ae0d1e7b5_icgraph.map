@@ -1,0 +1,15 @@
+<map id="mlx_delete_image" name="mlx_delete_image">
+<area shape="rect" id="Node000001" title=" " alt="" coords="408,78,551,103"/>
+<area shape="rect" id="Node000002" href="$tests_8cpp.html#ae56913a43e3b5b5e85555bb584df8df2" title=" " alt="" coords="123,27,193,52"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="452,71,410,41,385,27,359,17,327,10,301,8,242,17,193,29,192,24,241,12,301,3,328,4,361,12,388,22,413,36,455,66"/>
+<area shape="rect" id="Node000003" href="$tests_8cpp.html#a0bea0b82a8268d65dc6d1a6f5a55750f" title=" " alt="" coords="5,52,75,78"/>
+<area shape="poly" id="edge7_Node000001_Node000003" title=" " alt="" coords="394,88,75,70,75,64,394,83"/>
+<area shape="rect" id="Node000004" href="$mlx__font_8c.html#a3c7e4790683c2dbc5159cb3a18c22e0b" title=" " alt="" coords="241,27,360,52"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="420,76,346,55,347,50,421,71"/>
+<area shape="rect" id="Node000005" href="$tests_8cpp.html#a1f1e5623ca7f1155b035f979aa9cf58b" title=" " alt="" coords="266,128,335,154"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="421,109,337,134,335,129,420,104"/>
+<area shape="rect" id="Node000006" href="$tests_8cpp.html#a91cc672d0a00ed4c9c957a7403d10c52" title=" " alt="" coords="266,178,335,203"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="450,113,361,169,337,180,334,175,359,164,448,109"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="110,53,75,60,74,55,108,48"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="228,42,193,42,193,37,228,37"/>
+</map>
