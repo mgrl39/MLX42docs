@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 6 * * *'  # Todos los días a las 6:00 UTC
+    - cron: '0 6 * * 1'  # Solo los lunes a las 6:00 UTC
 
 permissions:
   contents: write
