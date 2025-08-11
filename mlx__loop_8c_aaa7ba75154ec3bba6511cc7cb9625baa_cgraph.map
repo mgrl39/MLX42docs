@@ -1,0 +1,20 @@
+<map id="mlx_render_images" name="mlx_render_images">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,107,156,132"/>
+<area shape="rect" id="Node000002" href="$mlx__images_8c.html#a2c27c67cc0b297e0a0420a3074aa502c" title=" " alt="" coords="214,56,362,81"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="133,104,222,82,223,87,134,109"/>
+<area shape="rect" id="Node000005" href="$mlx__error_8c.html#a3b5d95cdf353faaaa691ef8b2041b94f" title=" " alt="" coords="245,107,331,132"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="156,117,231,117,231,122,156,122"/>
+<area shape="rect" id="Node000007" href="$mlx__list_8c.html#a3600368649993a1cc09550339063d2fe" title=" " alt="" coords="204,156,372,181"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="135,129,221,150,220,155,134,135"/>
+<area shape="rect" id="Node000003" href="$mlx__images_8c.html#a0455987ae10955685b82b62eab3e20fd" title=" " alt="" coords="420,5,556,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="338,53,423,31,425,37,340,58"/>
+<area shape="rect" id="Node000004" href="$mlx__images_8c.html#a1ed852c03c55e288332fed9019ce0fc0" title=" " alt="" coords="604,31,732,56"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="362,61,590,46,590,51,362,66"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="557,25,590,30,590,35,556,30"/>
+<area shape="rect" id="Node000006" href="$mlx__error_8c.html#a2d365ea2e3844959187b6978c6e05171" title=" " alt="" coords="437,107,539,132"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="331,117,423,117,423,122,331,122"/>
+<area shape="rect" id="Node000008" href="$mlx__list_8c.html#a7017c6b82e4b95400e50b4ab3bf906e8" title=" " alt="" coords="430,156,546,181"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="372,166,417,166,417,171,372,171"/>
+<area shape="rect" id="Node000009" href="$mlx__list_8c.html#a14b0cd3bd33f2d9db36b32fe54837483" title=" " alt="" coords="613,156,723,181"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="546,166,599,166,599,171,546,171"/>
+</map>
