@@ -1,0 +1,22 @@
+<map id="mlx_ctx" name="mlx_ctx">
+<area shape="rect" id="Node000001" title=" " alt="" coords="465,451,594,656"/>
+<area shape="rect" id="Node000002" href="$structmlx__list.html" title=" " alt="" coords="5,243,83,309"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="54,308,76,368,94,398,118,425,155,453,196,476,240,495,284,511,372,532,448,544,448,549,371,538,283,516,238,500,194,481,152,457,114,429,90,402,71,370,49,310"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="84,252,101,258,107,266,109,276,107,287,101,294,97,291,102,285,104,276,102,268,98,262,82,258"/>
+<area shape="rect" id="Node000003" href="$structmlx__srcoll.html" title=" " alt="" coords="177,233,258,319"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="218,319,224,373,233,401,247,425,268,447,291,466,343,498,397,520,449,535,448,540,396,525,340,502,288,471,264,451,243,428,228,403,219,374,212,319"/>
+<area shape="rect" id="Node000004" href="$structmlx__mouse.html" title=" " alt="" coords="292,233,383,319"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="337,319,341,372,348,400,360,425,378,451,401,474,452,511,449,516,398,478,374,454,355,428,343,401,336,373,332,319"/>
+<area shape="rect" id="Node000005" href="$structmlx__cursor.html" title=" " alt="" coords="423,233,510,319"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="465,319,464,371,471,426,473,435,468,436,465,427,458,371,459,319"/>
+<area shape="rect" id="Node000006" href="$structmlx__key.html" title=" " alt="" coords="557,243,627,309"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="589,309,565,427,563,435,558,434,560,426,584,308"/>
+<area shape="rect" id="Node000007" href="$structmlx__key__data.html" title=" " alt="" coords="539,5,645,131"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="595,131,595,227,589,227,589,131"/>
+<area shape="rect" id="Node000008" href="$structmlx__resize.html" title=" " alt="" coords="657,233,743,319"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="695,320,680,373,656,428,633,459,608,488,604,485,629,456,651,425,675,371,690,318"/>
+<area shape="rect" id="Node000009" href="$structmlx__close.html" title=" " alt="" coords="784,233,864,319"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="821,320,805,375,792,403,774,428,738,463,696,491,652,513,610,531,608,526,650,509,693,486,734,459,770,425,787,400,800,373,816,318"/>
+<area shape="rect" id="Node000010" href="$structvertex.html" title=" " alt="" coords="916,193,972,359"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="933,360,918,396,895,428,864,455,830,478,755,512,679,535,611,547,610,542,678,529,753,507,827,473,861,451,891,425,914,394,928,358"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="mlx_read_data" name="mlx_read_data">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,124,80"/>
+<area shape="rect" id="Node000002" href="$mlx__put__pixel_8c.html#a8cbde9c5d99f600c5c4016bda5b40592" title=" " alt="" coords="172,5,296,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,52,175,32,177,37,110,57"/>
+<area shape="rect" id="Node000003" href="$mlx__utils_8c.html#ab31a068c9000789a7999bfc1ea34709b" title=" " alt="" coords="177,55,291,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="124,65,164,65,164,70,124,70"/>
+<area shape="rect" id="Node000004" href="$mlx__utils_8c.html#afeec80312b6f8a8755b798ed12721cd8" title=" " alt="" coords="185,104,283,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="110,77,177,97,175,102,108,83"/>
+</map>

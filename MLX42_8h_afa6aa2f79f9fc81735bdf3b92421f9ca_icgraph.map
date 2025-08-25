@@ -1,0 +1,12 @@
+<map id="mlx_terminate" name="mlx_terminate">
+<area shape="rect" id="Node000001" title=" " alt="" coords="367,56,485,81"/>
+<area shape="rect" id="Node000002" href="$mlx__init_8c.html#a32988a5ce7aaa25a448b61b0ac410cec" title=" " alt="" coords="209,5,283,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="366,55,283,31,284,26,368,50"/>
+<area shape="rect" id="Node000004" href="$tests_8cpp.html#a3e69cb2acfdf4102ece9c9a2927d8e84" title=" " alt="" coords="38,55,93,80"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="353,71,93,70,93,65,353,66"/>
+<area shape="rect" id="Node000005" href="$classWindow.html#a8f4f7c0ab925c5ab5667e607dd3b6c9e" title=" " alt="" coords="173,107,319,132"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="368,88,293,109,291,104,366,83"/>
+<area shape="rect" id="Node000003" href="$classWindow.html#a853c1fb2e3d27366fb37892161d17014" title=" " alt="" coords="5,5,125,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="195,21,125,21,125,15,195,15"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="196,34,94,63,92,58,195,29"/>
+</map>

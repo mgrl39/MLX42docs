@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['a_0',['a',['../glad_8h.html#ac8729153468b5dcf13f971b21d84d4e5',1,'glad.h']]],
+  ['a_20bug_20strong_1',['&lt;strong&gt;Found a bug?&lt;/strong&gt;',['../md_lib_2MLX42_2CONTRIBUTING.html#autotoc_md13',1,'']]],
+  ['a_20href_20https_3a_20brew_20sh_20homebrew_20a_20a_20href_20https_3a_20github_20com_20kube_2042homebrew_2042homebrew_20a_2',['Via &lt;a href=&quot;https://brew.sh/&quot; &gt;Homebrew&lt;/a&gt; / &lt;a href=&quot;https://github.com/kube/42homebrew&quot; &gt;42Homebrew&lt;/a&gt;',['../index.html#autotoc_md107',1,'']]],
+  ['a_20vulnerability_3',['Reporting a Vulnerability',['../md_lib_2MLX42_2SECURITY.html#autotoc_md118',1,'']]],
+  ['access_4',['access',['../glad_8h.html#a34879afcda4a484072096c23ad556152',1,'glad.h']]],
+  ['action_5',['action',['../structmlx__key__data.html#a1cef9b0787e380755b67118f6e14c909',1,'mlx_key_data::action'],['../MLX42_8h.html#a2f4ab7bf743142dae2e459aa18f9f1d4',1,'action:&#160;MLX42.h']]],
+  ['action_5ft_6',['action_t',['../MLX42_8h.html#a75c31c434d25bd8e8bc7e1353046d35a',1,'MLX42.h']]],
+  ['add_5fid_7',['add_id',['../structLodePNGEncoderSettings.html#a893aa542aa7c122c32ee36dd716fbcb2',1,'LodePNGEncoderSettings']]],
+  ['allocsize_8',['allocsize',['../structucvector.html#a235168baac13f0c78bd3e309dc170f90',1,'ucvector']]],
+  ['allow_5fgreyscale_9',['allow_greyscale',['../structLodePNGColorStats.html#a97c2e4db5de999cd92c1eabcdf80d431',1,'LodePNGColorStats']]],
+  ['allow_5fpalette_10',['allow_palette',['../structLodePNGColorStats.html#ad6de0a38622538aace50a99ff5f63854',1,'LodePNGColorStats']]],
+  ['alpha_11',['alpha',['../structLodePNGColorStats.html#af81e4a84aa3d94849736b6689643c101',1,'LodePNGColorStats::alpha'],['../glad_8h.html#a090ebe65994a3ee4bb60ae3472abffc5',1,'alpha:&#160;glad.h']]],
+  ['and_20build_20mlx42_12',['Download and build - MLX42',['../index.html#autotoc_md102',1,'']]],
+  ['apientry_13',['APIENTRY',['../glad_8h.html#a428a91acf2c2439dc1a257708ee1f805',1,'glad.h']]],
+  ['apientryp_14',['APIENTRYP',['../glad_8h.html#aef0d9e5e275e1b7becf54b6aa9ce3911',1,'glad.h']]],
+  ['arrays_15',['arrays',['../glad_8h.html#ab90b6192ffc82d4cdd7c3ca3bfa0754a',1,'glad.h']]],
+  ['attachment_16',['attachment',['../glad_8h.html#ad8f97111cc6514af5f352219d1cceb40',1,'glad.h']]],
+  ['attachments_17',['attachments',['../glad_8h.html#ab1774e5671b09a9cc14614868cc6a9b9',1,'glad.h']]],
+  ['attribindex_18',['attribindex',['../glad_8h.html#ad7b4313fffaf75be9c3910e3a2b997bf',1,'glad.h']]],
+  ['attribution_19',['Attribution',['../md_lib_2MLX42_2CODE__OF__CONDUCT.html#autotoc_md10',1,'']]],
+  ['auto_5fconvert_20',['auto_convert',['../structLodePNGEncoderSettings.html#a1203b8db6532c9ff4a5c8ee692cd327a',1,'LodePNGEncoderSettings']]],
+  ['available_20options_21',['Available Options',['../index.html#autotoc_md103',1,'']]]
+];
